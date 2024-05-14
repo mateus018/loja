@@ -1,6 +1,8 @@
 body {
-    background-color: black;
+    background-color: #eee;
     color: #fff;
+    font-family: 'Play', sans-serif;
+    
 }
 
 a {
@@ -40,7 +42,7 @@ nav li {
 }
 
 nav ul li a {
-  color: aquamarine;
+  color: #333;
   padding: 15px;
 }
 
@@ -51,12 +53,17 @@ nav ul {
 
   h1{
     text-decoration: none;
-    color: aquamarine;
+    color: #333;
   }
 
 h2{
-  padding: 50px 0px 150px 0;
-  color: aquamarine;
+  padding: 20px;
+  color: #101010;
+
+
+  
+  
+
 }
   
   .main-container{
@@ -77,9 +84,7 @@ h2{
   flex-wrap:wrap;
   column-gap: 20px;
   row-gap: 20px;
-  
-  
-  
+ 
 }
 
 .container{
@@ -130,4 +135,11 @@ h2{
   color: white;
   margin: 15px;
   padding: 8px 45px;
+}
+.desconto{
+  width: 100vw;
+  height: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  background-color: #399ade;
 }

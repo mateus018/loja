@@ -42,7 +42,7 @@ async function get() {
         
 
         const valor = document.createElement("span");
-        valor.innerText = item.price;
+        valor.innerText = item.price.toFixed(2);
         
 
         const botaoCart = document.createElement("a");
