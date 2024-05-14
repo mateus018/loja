@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazonas</title>
+    <title>loja_virtual1.1</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,33 +11,102 @@
 </head>
 <body>
     
-    <script src="script.js"></script>
     
-    <header>
-        <div class="container1">
-            <div class="logo">
-                <a href="./index.html"><h1>Amazonas Store</h1></a>
-            </div>
     
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Home</a></li>
-                    </ul>
-                </nav>
+    
+
+    <div class="models">
+        <div class="product-item">
+            <div class="product--img"> <img src="" alt=""></div>
+            <div class="product-title">Um titulo bem interessante</div>
+            <div class="product-price">R$ --</div>
+            <a class="addTocart"  href=""> add to cart</a>
+        </div>
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
             </div>
         </div>
-        
-        
-
-    </header>
-
-    <div class="main-container">
-       <div class="desconto"><h2>10% de desconto na primeira compra</h2></div> 
-        <div class="main-content" id="main-content"></div>
     </div>
+    
+    <div class="container--tarja">
+        <div class="linha_sup">.</div>
+        <div class="content"><h1>10% OFF</h1> </div>
+        <div class="linha_inf">.</div>
+        
+    </div>
+
+
+    <header class="head">
+        <div class="menu-openner"><span>0</span>🛒</div>
+    </header>
+    <header class="menu">
+        <a href=""><h1>Virtual store</h1></a>
+        
+    </header>
+    
+    <main>
+        <div class="products-area"></div>
+    </main>
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1>Cart</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Discount (-10%)</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--finalizar">Buy</div>
+            </div>
+        </div>
+    </aside>
+
+    <div class="productWindowArea">
+        <div class="productWindowBody">
+            <div class="productInfo--cancelMobileButton">Voltar</div>
+            <div class="productBig">
+                <img src="" />
+            </div>
+            <div class="productInfo">
+                <h1>--</h1>
+                <div class="productInfo--desc">--</div>
+                
+                <div class="productInfo--pricearea">
+                    <div class="productInfo--sector">Preço</div>
+                    <div class="productInfo--price">
+                        <div class="productInfo--actualPrice">R$ --</div>
+                        <div class="productInfo--qtarea">
+                            <button class="productInfo--qtmenos">-</button>
+                            <div class="productInfo--qt">1</div>
+                            <button class="productInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productInfo--addButton">Add to Cart</div>
+                <div class="productInfo--cancelButton">Cancel</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Desenvolvido com <span>🖤</span> por Mateus do Nascimento .
+    </footer>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
